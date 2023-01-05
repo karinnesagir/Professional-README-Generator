@@ -14,7 +14,7 @@ function renderLicenseBadge(license) {
       return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     } else if (license === "BSD 2-Clause 'Simplified'"){
       return "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)";
-    } else if (license === "BSD 3-Clause 'New' or 'Revised'"){
+    } else if (license === "`BSD 3-Clause 'New' or 'Revised'"){
       return "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
     } else if (license === "Boost Software 1.0"){
       return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
@@ -179,7 +179,7 @@ function init() {
     inquirer.prompt(questions).then((response) => {
         response.renderLicenseBadge = renderLicenseBadge(response.license);
         response.renderLicenseLink = renderLicenseLink(response.license);
-        writeToFile("./output/generatedREADME.md", response);
+        writeToFile("./output/newREADME.md", response);
     });
 }
 
