@@ -83,9 +83,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(answers) {
     return `
     
-    # Title
-    ${answers.title}
+    # ${answers.title}
     ${renderLicenseBadge(answers.license)}
+    ![badge](https://img.shields.io/badge/license-${answers.license}-brightgreen)
     
     # Description
     ${answers.description}
