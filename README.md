@@ -42,7 +42,7 @@ THEN I am taken to the corresponding section of the README
 
 ## Usage
 
-Here is a [Link](./assets/applicationDemo.mp4) to a walkthrough video that demonstrates the functionality of the application.
+Here is a [Link](https://drive.google.com/file/d/1oqKl-pTpF4ZAREKSltsWYZbrsQa_3zW-/view) to a walkthrough video that demonstrates the functionality of the application.
 
 
 ## Environment
