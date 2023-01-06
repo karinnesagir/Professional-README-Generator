@@ -71,15 +71,13 @@ const questions = [
         type: "input",
         name: "title",
         message: "What is the title of your project?",
-        default: "Project Title",
-        validate: confirm, 
+        default: "Project Title", 
     },
     // Description 
     {
         type: "input",
         name: "description",
-        message: "Please write a description for your project?",
-        validate: confirm, 
+        message: "Please write a description for your project?", 
         default: "Description",
     },
     // Installation instructions
@@ -88,7 +86,6 @@ const questions = [
         name: "installation",
         message: "What are the installation instructions for the software?",
         default: "Installation",
-        validate: confirm,
     },
     // Usage information
     {
@@ -96,7 +93,6 @@ const questions = [
         name: "usage",
         message: "How can someone use this program?",
         default: "Usage",
-        validate: confirm,
     },
     // License
     {
@@ -118,7 +114,7 @@ const questions = [
             "Mozilla Public 2.0",
             "None",
         ],
-        // validate: confirm,
+        
     },
     // Contribution guidelines
     {
@@ -126,7 +122,6 @@ const questions = [
         name: "contributing",
         message: "How can users contribute to this project?",
         default: "Contributing",
-        validate: confirm,
     },
     // Test Instructions
     {
@@ -134,7 +129,6 @@ const questions = [
         name: "tests",
         message: "Please explain the test instructions for your project?",
         default: "Tests",
-        validate: confirm,
     },
     // Username
     {
@@ -142,7 +136,6 @@ const questions = [
         name: "username",
         message: "What is your GitHub username?",
         default: "GitHub username",
-        validate: confirm,
     },
     // Email
     {
@@ -150,18 +143,8 @@ const questions = [
         name: "email",
         message: "What is your GitHub email address that contributors may contact?",
         default: "Email",
-        validate: confirm,
     }
 ];
-
-
-function confirm (value) {
-    if (value != "") {
-        return true;
-    } else {
-        return "Please do not leave the questions blank."
-    }
-}
 
 
 // TODO: Create a function to write README file

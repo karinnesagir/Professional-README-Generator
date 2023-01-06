@@ -1,8 +1,8 @@
 
-  # b
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # My Project
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # Description
-  b
+  Description here
   # Table of Contents 
   * [Installation](#-Installation)
   * [Usage](#-Usage)
@@ -12,18 +12,18 @@
   * [Questions](#-Contact-Information)
       
   # Installation
-  b
+  Installation instructions
   # Usage
-  b
+  Usage
   # License 
-  Apache 2.0
-  * This project is licensed under the Apache 2.0 license. For more information on the Apache 2.0 license, please use the following link: https://www.apache.org/licenses/LICENSE-2.0.
+  MIT
+  * This project is licensed under the MIT license. For more information on the MIT license, please use the following link: https://opensource.org/licenses/MIT.
   # Contributing 
-  b
+  Contributing
   # Tests
-  b
+  Tests
   # Contact Information 
   If you have any further questions, please contact me using the contact email below!
-  * GitHub Username: b
-  * Contact Email: b
+  * GitHub Username: karinnesagir
+  * Contact Email: myemail@gmail.com
   

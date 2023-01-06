@@ -1,6 +1,7 @@
 # Professional-README-Generator
 README Generator: Node.js
 
+
 ## Description
 
 This program allows you to quickly and easily generate a README file using the command-line application to generate one. This allows a project creator to devote more time in working on their project. 
@@ -9,6 +10,7 @@ This command-line application will generate a professional README.md file based 
 ```
 node index.js
 ```
+
 
 ### User Story
 
@@ -37,6 +39,11 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+## Usage
+
+Here is a [Link](./assets/applicationDemo.webm) to a walkthrough video that demonstrates the functionality of the application.
+
 
 ## Environment
 
